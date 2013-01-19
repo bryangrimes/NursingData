@@ -1,0 +1,29 @@
+<h1>Listing work_logs</h1>
+
+<table>
+  <tr>
+    <th>Actor</th>
+    <th>Work</th>
+    <th>Work time</th>
+    <th>Notes</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @work_logs.each do |work_log| %>
+  <tr>
+    <td><%= work_log.actor_id %></td>
+    <td><%= work_log.work_id %></td>
+    <td><%= work_log.work_time %></td>
+    <td><%= work_log.notes %></td>
+    <td><%= link_to 'Show', work_log %></td>
+    <td><%= link_to 'Edit', edit_work_log_path(work_log) %></td>
+    <td><%= link_to 'Destroy', work_log, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Work log', new_work_log_path %>

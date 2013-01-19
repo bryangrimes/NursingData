@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  actor_id: 1
+  work_id: 1
+  work_time: 2013-01-19 15:47:54
+  without: MyString
+  time: MyString
+  zone: MyString
+  notes: MyString
+
+two:
+  actor_id: 1
+  work_id: 1
+  work_time: 2013-01-19 15:47:54
+  without: MyString
+  time: MyString
+  zone: MyString
+  notes: MyString

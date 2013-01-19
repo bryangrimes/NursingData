@@ -1,4 +1,16 @@
 NurseApp::Application.routes.draw do
+  resources :work_logs
+
+
+  resources :tasks
+
+
+  resources :actions
+
+
+  resources :actors
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
