@@ -40,9 +40,6 @@ ActiveRecord::Schema.define(:version => 20130119204754) do
     t.integer  "actor_id"
     t.integer  "work_id"
     t.datetime "work_time"
-    t.string   "without"
-    t.string   "time"
-    t.string   "zone"
     t.string   "notes"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
