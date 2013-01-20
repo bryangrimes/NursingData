@@ -1,13 +1,13 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
 one:
-  name: MyString
-  description: MyString
+  name: OneTask
+  description: TestingOneTask
   order: 1
-  action_id: 1
+  action: OneAction
 
 two:
-  name: MyString
-  description: MyString
-  order: 1
-  action_id: 1
+  name: TwoTask
+  description: TestingTwoTask
+  order: 2
+  action: OneAction

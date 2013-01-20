@@ -1,9 +1,9 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
 one:
-  name: MyString
-  description: MyString
+  name: OneAction
+  description: TestingOne
 
 two:
-  name: MyString
-  description: MyString
+  name: TwoAction
+  description: TestingTwo
