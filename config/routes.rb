@@ -10,6 +10,8 @@ NurseApp::Application.routes.draw do
 
   resources :actors
 
+  get "landing_page/home"
+  get "landing_page/help"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
