@@ -24,6 +24,16 @@ gem 'jquery-rails'
 group :development, :test do
   gem 'rspec-rails'
   gem 'capybara'
+  gem 'guard-rspec', '2.4.0'
+end
+
+group :test do
+  gem 'rb-fchange', '0.0.6'
+  gem 'rb-notifu', '0.0.4'
+  gem 'win32console', '1.3.2'
+  gem 'wdm', '~> 0.0.3'
+  gem 'guard-spork', '1.4.1'
+  gem 'spork', '>= 0.9.2'
 end
 
 # To use ActiveModel has_secure_password
